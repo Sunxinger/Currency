@@ -9,11 +9,8 @@
 
 namespace Currency
 {
-
-
-    public partial class Default
+    public partial class _Default
     {
-
         /// <summary>
         /// form1 控件。
         /// </summary>
@@ -22,5 +19,12 @@ namespace Currency
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+
+        protected global::Ext.Net.Store CurrencyFromStore;
+        protected global::Ext.Net.Store CurrencyToStore;
+        protected global::Ext.Net.ComboBox CurrencyFrom;
+        protected global::Ext.Net.ComboBox CurrencyTo;
+        protected global::Ext.Net.NumberField Amount;
+        protected global::Ext.Net.DisplayField Result;
     }
 }
